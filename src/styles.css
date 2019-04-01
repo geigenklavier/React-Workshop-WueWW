@@ -1,0 +1,34 @@
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.App .nav {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.App .nav a {
+  padding: 1em;
+}
+
+.App .nav a:hover {
+  background-color: lightskyblue;
+}
+
+.App main {
+  width: 70%;
+}
